@@ -386,5 +386,9 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.1" />
   <project path="vendor/thinkingbridge" name="vendor_thinkingbridge" remote="thinkingbridge" revision="jb-mr1" />
 
+  <project path="thinkingbridge" name="thinkingbridge" remote="thinkingbridge" revision="jellybean" >
+      <copyfile dest="build-tb.sh" src="build.sh"/>
+  </project>
+
   <project path="android" name="platform_manifest" remote="thinkingbridge" revision="jb-mr1" />
 </manifest>
