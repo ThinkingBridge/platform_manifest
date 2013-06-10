@@ -25,7 +25,7 @@
           fetch="git://github.com/CyanogenMod/"
           review="review.cyanogenmod.com" />
 
-  <project path="build" name="platform_build" revision="jb-mr1" remote="thinkingbridge" >
+  <project path="build" name="platform_build" revision="jellybean" remote="thinkingbridge" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -35,34 +35,16 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="thinkingbridge" revision="jb-mr1" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
-  <project path="device/samsung/crespo" name="platform_device_samsung_crespo" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="thinkingbridge" revision="cm-10.1" />
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="thinkingbridge" revision="cm-10.1" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/galaxys2-common" name="platform_device_samsung_galaxys2-common" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/aries-common" name="platform_device_samsung_aries-common" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/galaxysmtd" name="platform_device_samsung_galaxysmtd" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/i9100" name="platform_device_samsung_i9100" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/i9100g" name="platform_device_samsung_i9100g" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/i9300" name="platform_device_samsung_i9300" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/n7000" name="platform_device_samsung_n7000" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/n7100" name="platform_device_samsung_n7100" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/smdk4412-common" name="platform_device_samsung_smdk4412-common" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/lge/mako" name="platform_device_lge_mako" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/lge/e975" name="platform_device_lge_e975" remote="thinkingbridge" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -276,23 +258,11 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  
-  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="thinkingbridge" revision="cm-10.1" />
-  <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="cm" revision="cm-10.1" />
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr1" />
-  <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="cm-10.1" />
-  <project path="kernel/lge/mako" name="faux123/mako" remote="github" revision="enhanced_stock" />
   
   <project path="libcore" name="platform_libcore" remote="thinkingbridge" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
@@ -301,16 +271,16 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
@@ -324,7 +294,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="thinkingbridge" revision="jellybean" />
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -332,18 +301,18 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/TBWallpaper" name="platform_packages_apps_TBWallpaper" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="packages/apps/Trebuchet" name="platform_packages_apps_Launcher2" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="packages/apps/Trebuchet" name="platform_packages_apps_Trebuchet" remote="thinkingbridge" revision="jb-mr1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   
   <project path="packages/apps/Welcome" name="Welcome" remote="thinkingbridge" revision="jb-mr1" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" remote="cm" revision="cm-10.1" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" revision="cm-10.1" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" revision="cm-10.1" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" revision="cm-10.1" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="cm-10.1" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" revision="cm-10.1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -416,7 +385,6 @@
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.1" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.1" />
   <project path="vendor/thinkingbridge" name="vendor_thinkingbridge" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="vendor/thinkingbridge/bot" name="pseudo_buildbot" remote="thinkingbridge" revision="jb-mr1" />
 
   <project path="android" name="platform_manifest" remote="thinkingbridge" revision="jb-mr1" />
 </manifest>
