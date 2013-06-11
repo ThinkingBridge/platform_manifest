@@ -5,8 +5,8 @@ ThinkingBridge
 Getting Started
 ---------------
 
-To get started with Android/ThinkingBridge, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/downloading.html).
+To get started with ThinkingBridge, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the ThinkingBridge trees, use a command like this:
 
@@ -16,12 +16,13 @@ Then to sync up:
 
     repo sync
 
-
 Building
 --------
 
-After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+Now run our build script:
 
-You can also build a flashable zip with
+    ./build-tb.sh -device-
 
-    time mka bacon
+example:
+
+    ./build-tb.sh mako
