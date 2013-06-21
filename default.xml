@@ -35,7 +35,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="thinkingbridge" revision="jellybean" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="thinkingbridge" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="thinkingbridge" revision="jb-mr1" />
   <project path="development" name="platform/development" />
