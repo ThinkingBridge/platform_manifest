@@ -26,3 +26,6 @@ Now run our build script:
 example:
 
     ./build-tb.sh mako
+
+
+test
