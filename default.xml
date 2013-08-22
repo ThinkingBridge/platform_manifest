@@ -398,7 +398,6 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" revision="cm-10.2" remote="cm" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" revision="cm-10.2" remote="cm" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" revision="cm-10.2" remote="cm" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" revision="cm-10.2" remote="cm" />
   
   <project path="vendor/asus" name="proprietary_vendor_asus" revision="cm-10.2" remote="tm" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" revision="cm-10.2" remote="tm" />
