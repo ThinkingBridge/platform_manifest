@@ -125,6 +125,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+   <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-10.2" />
   <project path="external/koush/Superuser" name="Superuser" revision="cm-10.2" remote="cm" />
   <project path="external/koush/Widgets" name="Widgets" revision="cm-10.2" remote="cm" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
