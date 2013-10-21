@@ -5,8 +5,7 @@
            fetch="https://android.googlesource.com" />
 
   <remote  name="tb"
-           fetch="git://github.com/ThinkingBridge/"
-           review="198.211.113.150:8080/" />
+           fetch="git://github.com/ThinkingBridge/" />
   
   <remote  name="tm"
            fetch="git://github.com/TheMuppets" />
