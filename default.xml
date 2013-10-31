@@ -16,7 +16,7 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <default revision="refs/tags/android-4.3_r2.2"
+  <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-c="true"
            sync-f="true"
