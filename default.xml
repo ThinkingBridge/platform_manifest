@@ -10,6 +10,9 @@
 
   <remote  name="thinkingbridge"
            fetch="https://github.com/ThinkingBridge" />
+  
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
 
   <default revision="refs/tags/android-4.4.1_r1"
            remote="aosp"
@@ -116,6 +119,7 @@
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
+  <project path="external/google" name="platform_external_google" remote="thinkingbridge" revision="kitkat" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
@@ -312,7 +316,7 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="thinkingbridge" revision="kitkat" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -421,5 +425,21 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  
+  <project path="vendor/thinkingbridge" name="platform_vendor_thinkingbridge" remote="thinkingbridge" revision="kitkat" />
+  <project path="vendor/akm" name="proprietary_vendor_akm" remote="tm" revision="cm-11.0" />
+  <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-11.0" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-11.0" />
+  <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.2" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-11.0" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-11.0" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-11.0" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-11.0" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-11.0" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-11.0" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-11.0" />
 
 </manifest>
