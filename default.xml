@@ -241,7 +241,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="thinkingbridge" revision="kitkat" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="thinkingbridge" revision="kitkat" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="thinkingbridge" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -327,8 +327,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="thinkingbridge" revision="kitkat" />
-  <project path="packages/apps/TBSetupWizard" name="platform/packages/apps/TBSetupWizard" remote="thinkingbridge" revision="kitkat" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="thinkingbridge" revision="kitkat" />
+  <project path="packages/apps/TBSetupWizard" name="platform_packages_apps_TBSetupWizard" remote="thinkingbridge" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -410,7 +410,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" remote="thinkingbridge" revision="kitkat" groups="pdk" />
+  <project path="system/extras" name="platform_system_extras" remote="thinkingbridge" revision="kitkat" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
