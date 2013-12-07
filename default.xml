@@ -9,10 +9,13 @@
            review="android-review.googlesource.com" />
 
   <remote  name="thinkingbridge"
-           fetch="https://github.com/ThinkingBridge" />
+           fetch="git://github.com/ThinkingBridge" />
   
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
+  
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" />
 
   <default revision="refs/tags/android-4.4.1_r1"
            remote="aosp"
@@ -260,7 +263,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
