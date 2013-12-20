@@ -9,7 +9,8 @@
            review="android-review.googlesource.com" />
 
   <remote  name="thinkingbridge"
-           fetch="git://github.com/ThinkingBridge" />
+           fetch="git://github.com/ThinkingBridge"
+           review="gerrit.tbridge.kr" />
   
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
