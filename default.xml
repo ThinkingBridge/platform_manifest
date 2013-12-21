@@ -426,13 +426,13 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="system_core" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="system/extras" name="system_extras" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/core" name="platform_system_core" remote="thinkingbridge" revision="kitkat" groups="pdk" />
+  <project path="system/extras" name="platform_system_extras" remote="thinkingbridge" revision="kitkat" groups="pdk" />
   <project path="system/media" name="system_media" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/netd" name="system_netd" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/qcom" name="system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="system_vold" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-11.0" groups="pdk" />
 
   
   <project path="vendor/thinkingbridge" name="platform_vendor_thinkingbridge" remote="thinkingbridge" revision="kitkat" />
