@@ -1,5 +1,5 @@
-ThinkingBridge
-===========
+[ThinkingBridge] (http://thinkingbridge.org)
+====================================
 
 
 Getting Started
