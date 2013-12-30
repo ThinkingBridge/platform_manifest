@@ -79,7 +79,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="external_chromium_org" remote="aokp" revision="kitkat" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -173,8 +173,8 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="android_external_libpng" remote="cm" revision="cm-11.0" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="external_libselinux" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="external/libsepol" name="external_libsepol" remote="aokp" revision="kitkat" />
+  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
+  <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -225,7 +225,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="external_sepolicy" remote="aokp" revision="kitkat" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="platform_external_skia" remote="thinkingbridge" revision="kitkat" />
@@ -259,7 +259,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zlib" name="external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="thinkingbridge" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
