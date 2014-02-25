@@ -228,7 +228,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-11.0" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="platform_external_skia" remote="thinkingbridge" revision="kitkat" />
+  <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-11.0" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -299,7 +299,7 @@
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="thinkingbridge" revision="kitkat" groups="qcom" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
@@ -432,7 +432,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="platform_system_core" remote="thinkingbridge" revision="kitkat" groups="pdk" />
-  <project path="system/extras" name="platform_system_extras" remote="thinkingbridge" revision="kitkat" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="android_system_media" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-11.0" groups="pdk" />
